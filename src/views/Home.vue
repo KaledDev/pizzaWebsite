@@ -1,6 +1,4 @@
 <script setup>
-import appFooter from '../components/appFooter.vue';
-import navbar from '../components/navbar.vue';
 import heroSection from '../components/heroSection.vue';
 import favorite from '../components/favorite.vue';
 import sectionOne from '../components/sectionOne.vue';
@@ -11,9 +9,13 @@ import newsletter from '../components/newsletter.vue';
 </script>
 
 <template>
-<navbar/>
-<router-view/>
-<appFooter/>
+  <heroSection/>
+  <favorite/>
+  <sectionOne/>
+  <dessert/>
+  <place/>
+  <testimonial/>
+  <newsletter/>
 </template>
 
 <style scoped>

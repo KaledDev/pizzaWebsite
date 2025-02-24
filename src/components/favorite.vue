@@ -4,7 +4,7 @@
 
 <template>
 
-    <div class=" w-full bg-[#FFF5F7] relative z-50 -mt-80 mb-14">
+    <div class="w-full bg-[#FFF5F7] relative z-40 -mt-80 mb-14">
         <div class="flex flex-col text-center gap-y-14">
             <div>
                 <p class="Gabarito text-5xl font-bold mt-12">Fan Favorites</p>
